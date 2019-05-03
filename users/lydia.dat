@@ -1,0 +1,10 @@
+make_user(
+    'Lydia',     # name
+    [                   # reviews
+        # Southside restaurants
+        make_review('Cafe 3', 4.0),
+        make_review('Quickly', 4.0),
+        make_review('Pho K & K', 4.0),
+        make_review('Top Dog 2', 1.0),
+    ]
+)
